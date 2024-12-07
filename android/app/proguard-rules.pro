@@ -1,0 +1,10 @@
+-keep class **.zego.** { *; }
+-keep class **.**.zego_zpns.** { *; }
+-keep class com.luck.picture.lib.** { *; }
+-dontwarn com.yalantis.ucrop**
+-keep class com.yalantis.ucrop** { *; }
+-keep interface com.yalantis.ucrop** { *; }
+-keep class com.hiennv.flutter_callkit_incoming.** { *; }
+-keep class java.beans.** { *; }
+-keep class org.conscrypt.** { *; }
+-keep class org.w3c.dom.bootstrap.** { *; }

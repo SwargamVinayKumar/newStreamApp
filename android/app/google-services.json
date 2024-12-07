@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842172225259",
+    "project_id": "newstream-15e6a",
+    "storage_bucket": "newstream-15e6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842172225259:android:a860b50a759d1050f3d0ae",
+        "android_client_info": {
+          "package_name": "com.example.newstream"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIDvXVgPI_kBZSc_ABABaIkWCnrt_pO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
