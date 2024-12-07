@@ -72,7 +72,7 @@ Future<void> main() async {
     StreamVideo.instance,
   );
 
-  // await requestNotificationPermission();
+  await requestNotificationPermission();
   runApp(const MyApp());
 }
 
