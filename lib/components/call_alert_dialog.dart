@@ -122,13 +122,14 @@ class _CallAlertDialogState extends State<CallAlertDialog> {
                            Get.back();
                            progressBar.value =  true;
                            final callId = DateTime.now().millisecondsSinceEpoch.toString().trim();
+
                            final call = StreamVideo.instance.makeCall(callType: StreamCallType.defaultType(), id: callId);
 
                            await call.getOrCreate(memberIds: [widget.currentUserId ?? "",widget.userDataModel.mobile.toString()],
                                ringing: true,
                                video: true,
-                               limits: const StreamLimitsSettings(
-                                 maxDurationSeconds: 60,
+                               limits:  StreamLimitsSettings(
+                                 maxDurationSeconds: (int.tryParse(durationText.text.toString()) ?? 1  )* 60,
                                )
                            );
 

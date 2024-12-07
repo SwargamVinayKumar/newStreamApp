@@ -28,8 +28,6 @@ class _CallScreenState extends State<CallScreen> {
     return StatefulWrapper(
       onInit: (){
         widget.call?.join();
-        print("calldetails");
-        print(widget.call.toString());
       },
       child: Scaffold(
         body: SafeArea(
